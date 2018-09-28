@@ -22,7 +22,29 @@ Use the CLI to create a new `memcached-operator` project:
 $ cd $GOPATH/src/github.com/example-inc/
 $ operator-sdk new memcached-operator --api-version=cache.example.com/v1alpha1 --kind=Memcached
 $ cd memcached-operator
+$ ls *
+Gopkg.toml
+
+cmd:
+memcached-operator
+
+config:
+config.yaml
+
+deploy:
+crd.yaml  cr.yaml  olm-catalog  operator.yaml (一个deployment)  rbac.yaml  sa.yaml
+
+pkg:
+apis  stub
+
+tmp:
+build  codegen
+
+version:
+version.go
 ```
+
+
 
 This creates the `memcached-operator` project specifically for watching the `Memcached` resource with APIVersion `cache.example.com/v1apha1` and Kind `Memcached`.
 
