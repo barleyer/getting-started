@@ -16,7 +16,7 @@ This section walks through an example of building a simple Memcached Operator us
 
 ### Create a new project
 
-Use the CLI to create a new `memcached-operator` project:
+Use the CLI to create a new `memcached-operator` project: [生成目录解释](https://github.com/operator-framework/operator-sdk/blob/master/doc/project_layout.md)
 
 ```sh
 $ cd $GOPATH/src/github.com/example-inc/
