@@ -38,7 +38,7 @@ pkg:
 apis  stub
 
 tmp:
-build  codegen
+build（Dockerfile） codegen
 
 version:
 version.go
